@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/index.css" />
     <script
       src="https://kit.fontawesome.com/5b12ffad4b.js"
       crossorigin="anonymous"
@@ -20,17 +21,17 @@
   <body>
     <div>
       <!-- header -->
-      <header>
-        <h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
-
-        <!-- nav -->
-        <nav>
-            <a href="#">Menu</a>
+      <header id="menu">
+        <div>
+          <h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+          <!-- nav -->
+          <nav class="links">
+            <a href="menu.html">Menu</a>
             <a href="#">Reservations</a>
             <a href="#">Special Offers</a>
             <a href="#">Contact</a>
-        </nav>
-           
+          </nav>
+        </div>
       </header>
 
       <!-- spacer -->
@@ -64,7 +65,12 @@
         <!-- email signup -->
         Join our mailing list! Sign Up
         <!-- nav -->
-        Menu Reservations Special Offers Contact
+        <nav class="links">
+          <a href="menu.html">Menu</a>
+          <a href="#">Reservations</a>
+          <a href="#">Special Offers</a>
+          <a href="#">Contact</a>
+        </nav>
         <!-- copyright -->
         ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
       </footer>

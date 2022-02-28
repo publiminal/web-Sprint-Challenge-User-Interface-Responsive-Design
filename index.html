@@ -25,26 +25,34 @@
           <!-- nav -->
           <nav class="links">
             <a href="menu.html">Menu</a>
-            <a href="#">Reservations</a>
-            <a href="#">Special Offers</a>
-            <a href="#">Contact</a>
+            <a href="">Reservations</a>
+            <a href="">Special Offers</a>
+            <a href="">Contact</a>
           </nav>
+          
           <div class="social">
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-twitter-square"></i>
-            <i class="fa-brands fa-instagram-square"></i>
+            <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="http://www.twitter.com" target="_blank" ><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="http://www.instagram.com" target="_blank" ><i class="fa-brands fa-instagram-square"></i></a>
           </div>
         </div>
       </header>
 
       <!-- gallery section -->
       <section class="gallery">
-        <div>
-          <h2>OUR FOOD</h2>
-
-          img/food-avocadotoast.jpg img/food-burger.jpg img/food-poutine.jpg
-          img/food-ribs.jpg img/food-sandwich.jpg img/food-sausage.jpg
-          img/food-steak.jpg img/food-tacos.jpg img/food-wings.jpg
+        <h2>OUR FOOD</h2>
+        <div class="gallery-container">
+          <div>
+            <img src="img/food-avocadotoast.jpg" alt="food-avocadotoast" />
+          </div>
+          <div><img src="img/food-burger.jpg" alt="food-burger" /></div>
+          <div><img src="img/food-poutine.jpg" alt="food-poutine" /></div>
+          <div><img src="img/food-ribs.jpg" alt="food-ribs" /></div>
+          <div><img src="img/food-sandwich.jpg" alt="food-sandwich" /></div>
+          <div><img src="img/food-sausage.jpg" alt="food-sausage" /></div>
+          <div><img src="img/food-steak.jpg" alt="food-steak" /></div>
+          <div><img src="img/food-tacos.jpg " alt="food-tacos" /></div>
+          <div><img src="img/food-wings.jpg" alt="food-wings" /></div>
         </div>
       </section>
 
@@ -126,17 +134,23 @@
       <!-- footer -->
       <footer>
         <!-- email signup -->
-        Join our mailing list! Sign Up
+
+        <div class="signup-form">
+          <p>Join our mailing list!</p>
+          <input type="email" pattern=".+@globex\.com" size="30" required name="Email Address" id="Email Address" placeholder="Email Address" value="Email Address" />
+          <input type="button" placeholder="Sign Up" value="Sign Up" />
+        </div>
         <!-- nav -->
-        <!-- nav -->
-        <nav>
+        <nav class="nav-footer">
           <a href="menu.html">Menu</a>
-          <a href="#">Reservations</a>
-          <a href="#">Special Offers</a>
-          <a href="#">Contact</a>
+          <a href="">Reservations</a>
+          <a href="">Special Offers</a>
+          <a href="">Contact</a>
         </nav>
         <!-- copyright -->
-        ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+        <div class="copyright">
+          <p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+        </div>
       </footer>
     </div>
   </body>

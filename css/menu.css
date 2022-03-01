@@ -117,12 +117,15 @@ header {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* gap: 3rem; */
     background-color: rgb(0, 4, 17, 0.8);
 }
 
 .menu-section {
     width: 40%;
+    margin-left: 10%;
+   
     
 }
 
@@ -136,14 +139,25 @@ header {
 
     display: flex;
     flex-wrap: wrap;
+    gap: 50%;
 }
 
 .menu-item {
-    width:90%;
+    width:70%;
+    margin: 0% 0 10% 0;
     
 }
 
-.menu-section, .drinks, .appetizers, .soup-salad, .desserts{
+.price-right{
+    float: right;
+    font-style: normal;
+}
+
+.bol{
+    font-style: italic;
+}
+
+.menu-section, .drinks, .appetizers, .soup-salad, .entrees, .desserts{
 
 }
 
@@ -154,10 +168,18 @@ article h2{
 }
 
 article h3{
-    /* width:fit-content; */
-    margin: 5rem 0;
-    /* text-align: center; */
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
 }
+
+article h4{
+    font-size: 2rem;
+}
+
+article p{
+    font-size: 1.5rem;
+}
+
 
 /* footer section */
 footer {

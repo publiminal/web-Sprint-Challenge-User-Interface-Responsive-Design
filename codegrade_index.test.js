@@ -58,7 +58,7 @@ describe('index.html', () => {
     });
 
     it('renders the correct three social media icons in header nav', () => {
-        const headerNavLinks = container.querySelector('header');
+        const headerNavLinks = container.querySelector('nav');
 
         let headerSMIconsArr = headerNavLinks.innerHTML.split(/<i /i);
         // shift is to get rid of initial index that splits before the i tag
